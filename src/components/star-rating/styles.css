@@ -1,0 +1,22 @@
+.star-rating{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.star-rating span {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.active{
+    color: #ffff70;
+}
+
+.inactive{
+    color: #000000;
+}
